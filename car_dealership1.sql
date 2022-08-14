@@ -126,11 +126,18 @@ $$
 
 --add 2 more customers via procedure---
 
+CALL add_customer('Quentin', 'Tarantino', '750 Bean Street', 'Chicago', 'Illinois');
+
+CALL add_customer('Al', 'Pacino', '9 Roasty Blvd', 'Chicago', 'Illinois');
+
+
+
 INSERT INTO Customer(first_name, last_name, address, city, state)
 	VALUES('Harrison', 'Ford', '254 Leaf Street', 'Chicago', 'Illinois');
 
 INSERT INTO Customer(first_name, last_name, address, city, state)
 	VALUES('Christopher', 'Walken', '588 Coffee Road', 'Chicago', 'Illinois');
+
 
 
 SELECT*
